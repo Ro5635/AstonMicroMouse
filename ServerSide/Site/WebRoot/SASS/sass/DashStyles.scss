@@ -1,0 +1,22 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+//Dash Styles
+
+
+//Because centre justified text is ment to be easy, right?
+.nonBootStrapCentreThis{
+	margin-right: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+//Fix required for the directional buttons
+.marginFix{
+	margin: 0 auto;
+}

@@ -1,0 +1,61 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+
+.loginFormStyle{
+	background-color: $color2;
+	@include border-radius(15px);
+	@include dropShaddowBellow(0 40px 50px -12px);
+	color: white;
+	padding-left: 3%;
+	padding-right: 3%;
+	
+
+
+
+}
+
+#loginpageSpacer{
+
+	@include respond-to('mobile') {
+		height: 10%;
+	
+
+	}	
+	@include respond-to('small') {
+		height: 10%;
+		
+	
+	}
+
+	@include respond-to('medium') {
+		height: 20%;
+		
+	}
+
+	@include respond-to('large') {
+		height: 20%;
+
+	}
+
+	width: 100%;
+	display: block;
+	
+
+}
+
+#loginPageLogo{
+	display: block;	
+	padding-top: 10%;
+	text-align: center;
+	margin: 0 auto;
+
+	img{
+		max-width: 15%;
+	}
+}

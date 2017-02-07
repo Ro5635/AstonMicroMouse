@@ -1,0 +1,42 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+.mainNavBar{
+	background-color: $color1;
+
+}
+
+
+
+.itemCardContainer{
+	padding-left: 5%;
+	// padding-right: 5%;
+	overflow: scroll;
+	display: block;
+	width: 500%;
+
+}
+.card{
+	width: 15%;
+	float: left;
+	margin-left: 1%;
+
+}
+
+
+.testMasterContainer{
+	width: 100%;
+	overflow: scroll;
+}
+
+
+.showMoreButt{
+	text-align: center;
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}

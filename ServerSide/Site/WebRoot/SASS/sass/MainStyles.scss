@@ -1,0 +1,21 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+.HomePageInitialVSpace {
+	height: 15%;
+	display: block;
+	width: 100%;
+
+}
+
+.homeButtonOptions {
+	margin-top: 5%;
+	text-align: center;
+
+
+}
