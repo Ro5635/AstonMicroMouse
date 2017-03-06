@@ -13,7 +13,10 @@ CREATE TABLE Runs( RunID int unsigned primary key , CreatedAT timestamp NOT NULL
 -- Tempary way of doing this untl the data needed persist is more known!
 CREATE TABLE RUNID_Run( DatumID int unsigned auto_increment primary key,  WallClock int unsigned NOT NULL , CreatedAT timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP , Opto0 int, Opto1 int, Opto2 int, Opto3 int, Opto4 int, Opto5 int, Opto6 int, Opto7 int, Opto8 int , WheelLAngSpeed int, WheelRAngSpeed int , MotorRSetPoint int, MotorLSetPoint int );
 
-
+-- ROBOT
+CREATE TABLE RobotState(contMode int unsigned DEFAULT 0 , manContDirID int unsigned DEFAULT 0 ) ;
 
 -- Example data : user
+
+-- This user being in a public repo should not be used for production :)
 INSERT INTO Users (UserTokenHashed , Email, FirstName, SecondName, MobileNum, AccessType) VALUES( SHA1('greenEggs') , 'r@r.com' , 'Robert' , 'Curran' , '5555555' , 0  );
