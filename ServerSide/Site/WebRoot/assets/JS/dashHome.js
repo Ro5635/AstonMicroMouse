@@ -19,7 +19,7 @@ $(document).ready(function(){
 		$.ajax({
 			url: "/ajax/manualcontrol",
 			type: "POST",
-			data: '?manDirectID=' + directID,
+			data: 'manDirectID=' + directID,
 			cache: false,
 			success: function(reternedData) {
 
