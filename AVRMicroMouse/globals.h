@@ -22,6 +22,13 @@ int GLOBAL_PIDSetPoint;
 
 //Tracking variable for the Opto detectors time
 int int_Opto_Count_Reached = 0;
+
+//Control Register to hold PID config bits
+int GLOBAL_control_register = 0;
+
+//Direction Register to hold motor config bits
+int GLOBAL_direction_register = 0;
+
 //////////////////////////////////////////////////////////////////////////
 
 #endif

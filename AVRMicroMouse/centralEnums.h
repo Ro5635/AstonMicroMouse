@@ -27,7 +27,6 @@ typedef enum {
 
 } Opto_enum;
 
-
 /****************************************************/
 /*		Enumerating the direction register			*/
 /*	zero bit enables the LH motor,					*/
