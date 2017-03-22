@@ -17,6 +17,7 @@ int Sense_Point = 0;
 int i, j = 0;										
 int Reflective_Index = 0;							
 int Val1, Val2 = 0;
+int previous_x;
 
 
 void ReflectiveStorage(void);
