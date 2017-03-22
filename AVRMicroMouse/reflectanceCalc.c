@@ -11,7 +11,7 @@
 	 int currentOpto = 0;
 	 
 	 //Set the set point equal to the calibrated set point
-	 Sense_Point = GLOBAL_OptoSetPoint;				//
+	 Sense_Point = GLOBAL_OptoSetPoint;
 	 
 	 while ( Reflective_Index < 10 ){
 		 
@@ -65,7 +65,7 @@
 			 Val1 = (int) Reflective_Values[x];
 			 Val2 =  (int) Reflective_Values[x+1];
 			 GLOBAL_PIDSetPoint = (Val1-Val2);
-			 if (x == Previous_x)
+			 if (x == previous_x)
 			 {
 				if (x == 3)
 					{
@@ -102,7 +102,7 @@
 						RH_Motor_Duty = (RH_Motor_Duty * 0.5);
 					}												// Too far left
 			}
-			Previous_x = x;
+			previous_x = x;
 		 }
 		 
 		 if (( *Reflective_Values[9] == 3) && !(GLOBAL_Start == 1))
