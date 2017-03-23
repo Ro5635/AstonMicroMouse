@@ -22,6 +22,11 @@ int GLOBAL_PIDSetPoint;
 
 //Tracking variable for the Opto detectors time
 int int_Opto_Count_Reached = 0;
+
+//Control Register Global
+int Global_controlRegister = 0;
+
+
 //////////////////////////////////////////////////////////////////////////
 
 #endif

@@ -69,36 +69,36 @@
 			 {
 				if (x == 3)
 					{
-						control_register |= AUTOMATIC;
-					}												// ok
+						Global_controlRegister |= AUTOMATIC;
+					}												
 				else if (x == 0)
 					{
-						control_register = control_register ~AUTOMATIC;
+						Global_controlRegister = Global_controlRegister &~AUTOMATIC;
 						LH_Motor_Duty = (LH_Motor_Duty * 0.5);
 					}												// Too far right
 				else if (x == 1)
 					{
-						control_register = control_register ~AUTOMATIC;
+						Global_controlRegister = Global_controlRegister &~AUTOMATIC;
 						LH_Motor_Duty = (LH_Motor_Duty * 0.7);
 					}												// Too far right
 				else if (x == 2)
 					{
-						control_register = control_register ~AUTOMATIC;
+						Global_controlRegister = Global_controlRegister &~AUTOMATIC;
 						LH_Motor_Duty = (LH_Motor_Duty * 0.9);
 					}												// Too far right
 				else if (x == 4)
 					{
-						control_register = control_register ~AUTOMATIC;
+						Global_controlRegister = Global_controlRegister &~AUTOMATIC;
 						RH_Motor_Duty = (RH_Motor_Duty * 0.9);
 					}												// Too far left
 				else if (x == 5)
 					{
-						control_register = control_register ~AUTOMATIC;
+						Global_controlRegister = Global_controlRegister &~AUTOMATIC;
 						RH_Motor_Duty = (RH_Motor_Duty * 0.7);
 					}												// Too far left
 				else if (x == 6)
 					{
-						control_register = control_register ~AUTOMATIC;
+						Global_controlRegister = Global_controlRegister &~AUTOMATIC;
 						RH_Motor_Duty = (RH_Motor_Duty * 0.5);
 					}												// Too far left
 			}
