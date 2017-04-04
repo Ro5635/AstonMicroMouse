@@ -33,7 +33,8 @@ src/main.d src/main.o: ../src/main.c \
  ../src/reflectanceDriver.c ../src/pinDefinitions.h ../src/centralEnums.h \
  ../src/globals.h ../src/reflectanceDriver.h ../src/reflectanceCalc.c \
  ../src/reflectancecalc.h ../src/lineFollowerCaibration.c \
- ../src/lineFollowerCaibration.h ../src/bubbleSort.c ../src/bubblesort.h
+ ../src/lineFollowerCaibration.h ../src/bubbleSort.c ../src/bubblesort.h \
+ ../src/communicationsController.c
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -128,3 +129,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\
 ../src/bubbleSort.c:
 
 ../src/bubblesort.h:
+
+../src/communicationsController.c:

@@ -36,7 +36,7 @@
 /*	PORTD											*/
 #define MOT_DRI_NSLEEP PD0							// Name the motor driver sleep pin
 #define MOT_DRI_NFAULT PD2							// Name the motor driver fault pin
-#define OptoSense_SINGLE_1 PD3						// Name the corner marker sensor pin
+#define OptoSense_SINGLE_1 PD4						// Name the corner marker sensor pin
 #define MOT_DRI_AIN1 PD4							// Name the left motor PWM pin
 #define MOT_DRI_AIN2 PD5							// Name the right motor PWM pin
 #define MOT_DRI_BIN2 PD6							// Name the left motor PWM pin
